@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="gridd.css">
     <title>Document</title>
@@ -31,7 +32,7 @@
     <!--main-->
     <main>
         <section id="News">
-            <div class="card-container">
+            <div class="card-container" data-aos="fade-right">
                 <h3 class="card-title">
                     <strong>Norbert Menyhart</strong> By nature, computer programmers are tech-savvy problem solvers 
                     <br>who understand how things work. They usually have well-developed analytical skills,<br>
@@ -44,7 +45,7 @@
                 </h5>
                 <img src="https://source.unsplash.com/collection/6770801/900x1600" class="card-img" alt="card-img">
             </div>
-            <div class="card-container">
+            <div class="card-container" data-aos="zoom-in">
                 <h3 class="card-title">
                     <strong>Clark Judge</strong> By nature, computer programmers are tech-savvy problem solvers 
                     <br>who understand how things work. They usually have well-developed analytical skills,<br>
@@ -57,7 +58,7 @@
                 </h5>
                 <img src="https://source.unsplash.com/collection/8880271/1600x900" class="card-img" alt="card-img">
             </div>
-            <div class="card-container">
+            <div class="card-container" data-aos="fade-right">
                 <h3 class="card-title">
                     <strong>James Hibert</strong> By nature, computer programmers are tech-savvy problem solvers 
                     <br>who understand how things work. They usually have well-developed analytical skills,<br>
@@ -70,7 +71,7 @@
                 </h5>
                 <img src="https://source.unsplash.com/collection/1258072/1600x900" class="card-img" alt="card-img">
             </div>
-            <div class="card-container">
+            <div class="card-container" data-aos="zoom-in">
                 <h3 class="card-title">
                     <strong>Koeman Savage</strong> By nature, computer programmers are tech-savvy problem solvers 
                     <br>who understand how things work. They usually have well-developed analytical skills,<br>
@@ -83,7 +84,7 @@
                 </h5>
                 <img src="https://source.unsplash.com/collection/1375619/900x1600" class="card-img" alt="card-img">
             </div>
-            <div class="card-container">
+            <div class="card-container" data-aos="fade-right">
             <h3 class="card-title">
                 <strong>Jack Bawa</strong> By nature, computer programmers are tech-savvy problem solvers 
                 <br>who understand how things work. They usually have well-developed analytical skills,<br>
@@ -96,7 +97,7 @@
             </h5>
             <img src="https://source.unsplash.com/collection/1347834/900x1600" class="card-img" alt="card-img">
         </div>
-        <div class="card-container">
+        <div class="card-container" data-aos="fade-left">
             <h3 class="card-title">
                 <strong>Phyno Pascal</strong> By nature, computer programmers are tech-savvy problem solvers 
                 <br>who understand how things work. They usually have well-developed analytical skills,<br>
@@ -133,5 +134,13 @@
         Powered by &copy; <a href="#" target="_blank">I_am_Stephanos Media 2022</a>
     </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 200,
+          delay: 100,
+          duration:1000,
+      });
+    </script>
 </body>
 </html>
